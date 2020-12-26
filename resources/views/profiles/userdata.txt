@@ -1,0 +1,13 @@
+email
+phone number
+password
+
+surname
+firstnme
+other names
+
+date of birth
+gender
+nationality
+educational
+qualifications

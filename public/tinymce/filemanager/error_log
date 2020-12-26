@@ -1,0 +1,119 @@
+[28-Mar-2020 21:52:22 UTC] PHP Notice:  Array to string conversion in /home2/iabcafri/iabc/public/tinymce/filemanager/config/config.php on line 13
+[28-Mar-2020 21:52:25 UTC] PHP Notice:  Array to string conversion in /home2/iabcafri/iabc/public/tinymce/filemanager/config/config.php on line 13
+[28-Mar-2020 21:53:05 UTC] PHP Notice:  Array to string conversion in /home2/iabcafri/iabc/public/tinymce/filemanager/config/config.php on line 13
+[28-Mar-2020 21:53:08 UTC] PHP Notice:  Array to string conversion in /home2/iabcafri/iabc/public/tinymce/filemanager/config/config.php on line 13
+[28-Mar-2020 22:53:08 Europe/Rome] PHP Notice:  Undefined index: verify in /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php on line 3
+[28-Mar-2020 21:55:57 UTC] PHP Notice:  Array to string conversion in /home2/iabcafri/iabc/public/tinymce/filemanager/config/config.php on line 13
+[28-Mar-2020 21:56:01 UTC] PHP Notice:  Array to string conversion in /home2/iabcafri/iabc/public/tinymce/filemanager/config/config.php on line 13
+[28-Mar-2020 22:56:01 Europe/Rome] PHP Notice:  Undefined index: verify in /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php on line 3
+[28-Mar-2020 21:56:30 UTC] PHP Notice:  Array to string conversion in /home2/iabcafri/iabc/public/tinymce/filemanager/config/config.php on line 13
+[28-Mar-2020 21:56:35 UTC] PHP Notice:  Array to string conversion in /home2/iabcafri/iabc/public/tinymce/filemanager/config/config.php on line 13
+[28-Mar-2020 22:56:35 Europe/Rome] PHP Notice:  Undefined index: verify in /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php on line 3
+[28-Mar-2020 22:57:57 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1483): create_img('../../file-mana...', '../thumbs/autho...', 122, 91)
+#3 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1432): UploadHandler->onUploadEnd(Array)
+#4 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(213): UploadHandler->post(false)
+#5 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(197): UploadHandler->initialize()
+#6 /home2/iabcafri/iabc/public/tinymce/filemanager/upload.php(179): UploadHandler->__construct(Array, true, Array)
+#7 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 22:59:01 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1483): create_img('../../file-mana...', '../thumbs/autho...', 122, 91)
+#3 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1432): UploadHandler->onUploadEnd(Array)
+#4 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(213): UploadHandler->post(false)
+#5 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(197): UploadHandler->initialize()
+#6 /home2/iabcafri/iabc/public/tinymce/filemanager/upload.php(179): UploadHandler->__construct(Array, true, Array)
+#7 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 22:59:37 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/dialog.php(1083): create_img('../../file-mana...', '../thumbs/autho...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 23:00:27 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1483): create_img('../../file-mana...', '../thumbs/autho...', 122, 91)
+#3 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1432): UploadHandler->onUploadEnd(Array)
+#4 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(213): UploadHandler->post(false)
+#5 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(197): UploadHandler->initialize()
+#6 /home2/iabcafri/iabc/public/tinymce/filemanager/upload.php(179): UploadHandler->__construct(Array, true, Array)
+#7 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 23:00:39 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/dialog.php(1083): create_img('../../file-mana...', '../thumbs/autho...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 23:00:50 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/dialog.php(1083): create_img('../../file-mana...', '../thumbs/autho...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 23:02:15 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/dialog.php(1083): create_img('../../file-mana...', '../thumbs/autho...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 23:11:37 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/dialog.php(1083): create_img('../../file-mana...', '../thumbs/autho...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 23:12:13 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1483): create_img('../../file-mana...', '../thumbs/autho...', 122, 91)
+#3 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1432): UploadHandler->onUploadEnd(Array)
+#4 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(213): UploadHandler->post(false)
+#5 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(197): UploadHandler->initialize()
+#6 /home2/iabcafri/iabc/public/tinymce/filemanager/upload.php(179): UploadHandler->__construct(Array, true, Array)
+#7 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 23:12:19 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1483): create_img('../../file-mana...', '../thumbs/autho...', 122, 91)
+#3 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1432): UploadHandler->onUploadEnd(Array)
+#4 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(213): UploadHandler->post(false)
+#5 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(197): UploadHandler->initialize()
+#6 /home2/iabcafri/iabc/public/tinymce/filemanager/upload.php(179): UploadHandler->__construct(Array, true, Array)
+#7 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 23:23:19 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/dialog.php(1083): create_img('../../file-mana...', '../thumbs/autho...', 122, 91, 'crop', Array)
+#3 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723
+[28-Mar-2020 23:23:45 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php:2723
+Stack trace:
+#0 /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php(230): imageLib->openImage('../../file-mana...')
+#1 /home2/iabcafri/iabc/public/tinymce/filemanager/include/utils.php(425): imageLib->__construct('../../file-mana...')
+#2 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1483): create_img('../../file-mana...', '../thumbs/autho...', 122, 91)
+#3 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(1432): UploadHandler->onUploadEnd(Array)
+#4 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(213): UploadHandler->post(false)
+#5 /home2/iabcafri/iabc/public/tinymce/filemanager/UploadHandler.php(197): UploadHandler->initialize()
+#6 /home2/iabcafri/iabc/public/tinymce/filemanager/upload.php(179): UploadHandler->__construct(Array, true, Array)
+#7 {main}
+  thrown in /home2/iabcafri/iabc/public/tinymce/filemanager/include/php_image_magician.php on line 2723

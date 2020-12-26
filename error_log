@@ -1,0 +1,21 @@
+[26-Mar-2020 20:20:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home2/iabcafri/iabc/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/database.php on line 18
+[26-Mar-2020 20:22:52 UTC] PHP Warning:  symlink(): File exists in /home2/iabcafri/iabc/imgsymlink.php on line 3
+[05-Jul-2020 08:00:23 UTC] PHP Warning:  symlink(): File exists in /home2/iabcafri/iabc/imgsymlink.php on line 3
+[03-Oct-2020 15:07:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home2/iabcafri/iabc/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/database.php on line 18
+[03-Oct-2020 15:07:13 UTC] PHP Warning:  symlink(): File exists in /home2/iabcafri/iabc/imgsymlink.php on line 3
+[03-Oct-2020 19:29:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home2/iabcafri/iabc/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/database.php on line 18
+[03-Oct-2020 19:29:51 UTC] PHP Warning:  symlink(): File exists in /home2/iabcafri/iabc/imgsymlink.php on line 3
+[10-Oct-2020 13:03:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home2/iabcafri/iabc/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/database.php on line 18
+[10-Oct-2020 13:03:36 UTC] PHP Warning:  symlink(): File exists in /home2/iabcafri/iabc/imgsymlink.php on line 3

@@ -1,0 +1,1 @@
+<div class=”title”>You cannot access this page! This is for only ‘{{$role}}’”</div>

@@ -1,0 +1,44 @@
+[26-Mar-2020 22:06:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home2/iabcafri/iabc/app/Pin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Pin.php on line 7
+[03-Oct-2020 19:29:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home2/iabcafri/iabc/app/Article.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Article.php on line 7
+[03-Oct-2020 19:29:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home2/iabcafri/iabc/app/Book.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Book.php on line 7
+[03-Oct-2020 19:29:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home2/iabcafri/iabc/app/Pin.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Pin.php on line 7
+[03-Oct-2020 19:29:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home2/iabcafri/iabc/app/Readlist.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Readlist.php on line 7
+[03-Oct-2020 19:29:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home2/iabcafri/iabc/app/ReadlistArticle.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/ReadlistArticle.php on line 7
+[03-Oct-2020 19:29:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home2/iabcafri/iabc/app/Sidebar.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Sidebar.php on line 7
+[03-Oct-2020 19:29:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home2/iabcafri/iabc/app/Subtopic.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Subtopic.php on line 7
+[03-Oct-2020 19:29:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home2/iabcafri/iabc/app/Socialmedia.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Socialmedia.php on line 7
+[03-Oct-2020 19:29:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home2/iabcafri/iabc/app/Topic.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Topic.php on line 7
+[03-Oct-2020 19:29:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home2/iabcafri/iabc/app/User.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/User.php on line 9

@@ -1,0 +1,27 @@
+var editor_config = {
+    path_absolute : "{{ URL::to('/') }}/",
+    selector: "textarea#editor",
+    height: tinyheight,
+    //mobile: {
+    //    height: tinyheightmobile,
+    //},
+    //image_dimensions: false,
+    image_class_list: [
+        {title: 'Responsive', value: 'ui fluid image'},
+        {title: 'None', value: ''}
+    ],
+    content_style: 'img { width: 100%; height: auto; }',
+    plugins: [
+        "advlist autolink lists link image charmap print preview hr anchor pagebreak",
+        "searchreplace wordcount visualblocks visualchars code fullscreen",
+        "insertdatetime media nonbreaking save table contextmenu directionality",
+        "emoticons template paste textcolor colorpicker textpattern"
+    ],
+    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image media",
+    relative_urls: false,
+    external_filemanager_path:"{{url('tinymce/filemanager')}}/",
+    filemanager_title:"Responsive Filemanager" ,
+    external_plugins: { "filemanager" : "{{url('tinymce')}}/filemanager/plugin.min.js"}
+};
+
+tinymce.init(editor_config);

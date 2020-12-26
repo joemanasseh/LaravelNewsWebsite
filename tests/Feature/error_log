@@ -1,0 +1,4 @@
+[27-Mar-2020 03:36:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home2/iabcafri/iabc/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/tests/Feature/ExampleTest.php on line 8

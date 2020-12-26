@@ -1,0 +1,16 @@
+[03-Oct-2020 19:30:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home2/iabcafri/iabc/routes/api.php:16
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/routes/api.php on line 16
+[03-Oct-2020 19:30:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home2/iabcafri/iabc/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/routes/channels.php on line 14
+[03-Oct-2020 19:30:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home2/iabcafri/iabc/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/routes/console.php on line 16
+[03-Oct-2020 19:30:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home2/iabcafri/iabc/routes/web.php:22
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/routes/web.php on line 22

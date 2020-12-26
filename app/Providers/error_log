@@ -1,0 +1,16 @@
+[27-Mar-2020 03:31:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home2/iabcafri/iabc/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Providers/AuthServiceProvider.php on line 8
+[27-Mar-2020 03:31:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home2/iabcafri/iabc/app/Providers/AppServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Providers/AppServiceProvider.php on line 8
+[27-Mar-2020 03:31:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home2/iabcafri/iabc/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Providers/BroadcastServiceProvider.php on line 8
+[27-Mar-2020 03:31:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home2/iabcafri/iabc/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/iabcafri/iabc/app/Providers/EventServiceProvider.php on line 10
